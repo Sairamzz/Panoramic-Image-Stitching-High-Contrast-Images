@@ -3,7 +3,7 @@
 This project implements a feature-based image stitching pipeline to create panoramas from high contrast images. The approach combines Harris corner detection with SIFT descriptors for feature extraction, followed by feature matching, homography estimation, and image blending.
 
 Functions Overview
-1. harris(I, N=100, **kwargs)
+1. ``` harris(I, N=100, **kwargs) ```
 
 Implements the Harris corner detector to identify interest points in grayscale images. The function supports Gaussian smoothing, frequency-domain convolution, tiling-based keypoint selection, and visualization of detected corners.
 
